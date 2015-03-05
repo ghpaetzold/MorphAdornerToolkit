@@ -1,0 +1,2 @@
+The license for the Java code and any python and shell scripts developed here is the very permissive BSD License (http://en.wikipedia.org/wiki/BSD_licenses).
+For more information on Morph Adorner's license, please visit their website at http://morphadorner.northwestern.edu/licenses/.

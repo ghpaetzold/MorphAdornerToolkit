@@ -8,6 +8,7 @@ Clone the project in a folder of your choice, then call the JARs in the followin
 	java -jar <Tool>.jar -h
 
 All tools receive the input from STDIN and provide the output in STDOUT.
+All tools' sources are distributed as Netbeans projects.
 
 # References
 Burns, Philip R. "MorphAdorner v2: A Java Library for the Morphological Adornment of English Language Texts." Evanston, IL. Northwestern University. 2013.
