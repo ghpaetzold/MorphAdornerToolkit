@@ -1,0 +1,16 @@
+/Libraries/
+/NounInflector/dist/
+/SyllableSplitter/dist/
+/VerbConjugator/dist/
+/VerbTenser/dist/
+/WordLemmatizer/dist/
+/NounInflector/store/
+/SyllableSplitter/store/
+/VerbConjugator/store/
+/VerbTenser/store/
+/WordLemmatizer/store/
+/NounInflector/build/
+/SyllableSplitter/build/
+/VerbConjugator/build/
+/VerbTenser/build/
+/WordLemmatizer/build/
