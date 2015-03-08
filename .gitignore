@@ -4,13 +4,16 @@
 /VerbConjugator/dist/
 /VerbTenser/dist/
 /WordLemmatizer/dist/
+/WordStemmer/dist/
 /NounInflector/store/
 /SyllableSplitter/store/
 /VerbConjugator/store/
 /VerbTenser/store/
 /WordLemmatizer/store/
+/WordStemmer/store/
 /NounInflector/build/
 /SyllableSplitter/build/
 /VerbConjugator/build/
 /VerbTenser/build/
 /WordLemmatizer/build/
+/WordStemmer/build/
