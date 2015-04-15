@@ -16,7 +16,7 @@ To cite Morph Adorner Toolkit, please add this entry to your Latex reference rep
 ```
 @misc{Paetzold15mat,
 author = {Gustavo Henrique Paetzold},
-title = {Morph Adorner Toolkit: Morph Adorner made simple.},
+title = {Morph Adorner Toolkit: Morph Adorner made simple},
 howpublished = {http://ghpaetzold.github.io/MorphAdornerToolkit/},
 year = {2015}
 }
