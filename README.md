@@ -13,16 +13,14 @@ All tools' sources are distributed as Netbeans projects.
 #Citing
 To cite Morph Adorner Toolkit, please add this entry to your Latex reference repository:
 
-> @misc{Paetzold15mat,
-
-> author = {Gustavo Henrique Paetzold},
-
-> title = {Morph Adorner Toolkit: Morph Adorner made simple.},
-
-> howpublished = {http://ghpaetzold.github.io/MorphAdornerToolkit/},
-
-> year = {2015}
-> }
+```
+@misc{Paetzold15mat,
+author = {Gustavo Henrique Paetzold},
+title = {Morph Adorner Toolkit: Morph Adorner made simple.},
+howpublished = {http://ghpaetzold.github.io/MorphAdornerToolkit/},
+year = {2015}
+}
+```
 
 # References
 Burns, Philip R. "MorphAdorner v2: A Java Library for the Morphological Adornment of English Language Texts." Evanston, IL. Northwestern University. 2013.
