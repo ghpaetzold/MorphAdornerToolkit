@@ -56,10 +56,10 @@ public class NounInflector {
                 if (number.equals("plural")) {
                     n = 2;
                 }
-                //Find resulting verb tense:
+                //Find resulting inflected noun:
                 String pluralized_stem = ep.pluralize(stem, n);
 
-                //Output resulting verb tense:
+                //Output resulting inflected noun:
                 System.out.println(pluralized_stem);
             } catch (Exception e) {
                 System.out.println(stem);
