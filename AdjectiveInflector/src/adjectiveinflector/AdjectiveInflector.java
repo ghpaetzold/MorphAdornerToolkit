@@ -16,9 +16,9 @@ public class AdjectiveInflector {
             System.out.println("\t\tjava -jar AdjectiveInflector.jar\n");
             System.out.println("\t- To close it, input a blank line.");
             System.out.println("\t- Input:\n");
-            System.out.println("\t\t<word>\n");
+            System.out.println("\t\t<lemma> comparative/superlative\n");
             System.out.println("\t- Output:\n");
-            System.out.println("\t\t<syllables>");
+            System.out.println("\t\t<inflected_adjective>");
             return;
         }
 
