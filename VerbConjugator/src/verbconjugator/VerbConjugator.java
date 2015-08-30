@@ -21,7 +21,7 @@ public class VerbConjugator {
             System.out.println("\t\tjava -jar VerbConjugator.jar\n");
             System.out.println("\t- To close it, input a blank line.");
             System.out.println("\t- Input:\n");
-            System.out.println("\t\t<verb_lemma> <tense>\n");
+            System.out.println("\t\t<verb_lemma> <tense> <person>\n");
             System.out.println("\t- Output:\n");
             System.out.println("\t\t<conjugated_verb>");
             return;
@@ -43,9 +43,11 @@ public class VerbConjugator {
 
             String stem;
             String verb_tense;
+            String verb_person;
             try {
                 stem = st.nextToken().trim();
                 verb_tense = st.nextToken();
+                verb_person = st.nextToken();
             } catch (Exception ex) {
                 return;
             }
@@ -53,7 +55,8 @@ public class VerbConjugator {
             try {
                 //Conjugate verb:
                 VerbTense vt = VerbTense.valueOf(verb_tense);
-                String conjugated_verb = ec.conjugate(stem, vt, Person.FIRST_PERSON_PLURAL);
+                Person p = Person.valueOf(verb_person);
+                String conjugated_verb = ec.conjugate(stem, vt, p);
 
                 //Print result to stdout:
                 System.out.println(conjugated_verb);

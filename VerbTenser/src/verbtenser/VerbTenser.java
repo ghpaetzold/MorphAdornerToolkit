@@ -22,7 +22,7 @@ public class VerbTenser {
             System.out.println("\t- Input:\n");
             System.out.println("\t\t<lemma> <verb>\n");
             System.out.println("\t- Output:\n");
-            System.out.println("\t\t<tense>");
+            System.out.println("\t\t<tense> <person>");
             return;
         }
         
@@ -51,20 +51,22 @@ public class VerbTenser {
 
             //Find resulting verb tense:
             String res_verb_tense = null;
+            String res_verb_person = null;
             for (VerbTense vt : VerbTense.values()) {
                 for (Person p : Person.values()) {
                     String conjugated_verb = ec.conjugate(stem, vt, p);
                     if(conjugated_verb.trim().equals(verb.trim())){
                         res_verb_tense = vt.toString();
+                        res_verb_person = p.toString();
                     }
                 }
             }
             
             //Output resulting verb tense:
             try{
-                System.out.println(res_verb_tense.toUpperCase());
+                System.out.println(res_verb_tense.toUpperCase() + ' ' + res_verb_person.toUpperCase());
             }catch(Exception e){
-                System.out.println("PAST_PERFECT_PARTICIPLE");
+                System.out.println("PAST_PERFECT_PARTICIPLE FIRST_PERSON_SINGULAR");
             }
         }
     }
