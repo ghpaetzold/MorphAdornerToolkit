@@ -22,5 +22,10 @@ year = {2015}
 }
 ```
 
+#License
+
+Moph Adorner is under Copyright © 2006-2013 by Northwestern University. All rights reserved.
+For more information on license, please visit http://morphadorner.northwestern.edu/licenses.
+
 # References
 Burns, Philip R. "MorphAdorner v2: A Java Library for the Morphological Adornment of English Language Texts." Evanston, IL. Northwestern University. 2013.
